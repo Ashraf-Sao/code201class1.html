@@ -1,10 +1,31 @@
 
-*{
-    font-size: 20px;
-    font-weight: 500;
-    font-style: italic;
-    background-color: cornflowerblue;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-
+* {
+    font-weight: 800;
+   
+    
 }
+
+p {
+color: brown;
+background-color: lightgrey;
+
+size: 20px;
+}
+
+ul { color: #092025;
+    background-color: lightskyblue;
+   
+
+font-style: italic;
+}
+
+ol {
+  background-color: mintcream;
+    color: #1a3d33;
+    
+}
+body {
+background-image: url(https://thumbs.dreamstime.com/z/set-vector-cartoon-doodle-icons-junk-food-illustration-comic-fast-seamless-texture-pattern-wallpaper-106101008.jpg);
+background-blend-mode: hue;
+}
+ 
