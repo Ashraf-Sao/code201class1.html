@@ -76,7 +76,7 @@ while (chances<=6){
     if (userGuess===favCloros[i]){
       alert ('you are correct');
       score++;
-      chances = 6
+      chances = 8;
       break;
     }
 
