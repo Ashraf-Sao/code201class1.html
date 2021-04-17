@@ -10,15 +10,16 @@ let score =0;
 
 
 let student = prompt('Do I study at LTUC?', 'Yes or NO').toLowerCase();
-while (student !== 'yes' && student !== 'no') {
+if (student !== 'yes' && student !== 'y' && student !== 'no' && student !== 'n') {
   student = prompt('acceptable answers are yes or no only' , 'Yes or No').toLowerCase();
 //console.log('yes');
 }
 alert('correct answer is yes');
+
 score++;
 
 let beginner = prompt('Do you think I am still a beginner?', 'Yes or NO').toLowerCase();
-while (beginner !== 'yes' && beginner !== 'no') {
+while (beginner !== 'yes' && beginner !== 'no'&& beginner !== 'y' && beginner !== 'n'){
   student = prompt('acceptable answers are yes or no only' , 'Yes or No').toLowerCase();
 //console.log('yes');
 }
@@ -27,7 +28,7 @@ alert('correct answer is yes');
 score++;
 
 let chef = prompt('Was I a chef before?', 'Yes or NO').toLowerCase();
-while (chef !== 'yes' && chef !== 'no') {
+while (chef !== 'yes' && chef !== 'no' && chef !== 'y' && chef !== 'n') {
   student = prompt('acceptable answers are yes or no only' , 'Yes or No').toLowerCase();
 //console.log('yes');
 }
@@ -36,7 +37,7 @@ alert('correct answer is yes');
 score++;
 
 let language = prompt('Do I speak Spanish?', 'Yes or NO').toLowerCase();
-while (language !== 'yes' && language !== 'no') {
+while (language !== 'yes' && language !== 'no' && language !== 'y' && language !== 'n') {
   student = prompt('acceptable answers are yes or no only' , 'Yes or No').toLowerCase();
 //console.log('yes');
 }
@@ -45,7 +46,7 @@ alert('correct answer is yes');
 score++;
 
 let live = prompt('Do I live in Irbid?', 'Yes or NO').toLowerCase();
-while (live !== 'yes' && live !== 'no') {
+while (live !== 'yes' && live !== 'no' && live !== 'y' && live !== 'n') {
   student = prompt('acceptable answers are yes or no only' , 'Yes or No').toLowerCase();
 //console.log('no');
 }
@@ -75,7 +76,7 @@ while (chances<=6){
     if (userGuess===favCloros[i]){
       alert ('you are correct');
       score++;
-      chances = 8;
+      chances = 6
       break;
     }
 
@@ -88,3 +89,4 @@ while (chances<=6){
 }
 
 alert ('your score is ' + score);
+
